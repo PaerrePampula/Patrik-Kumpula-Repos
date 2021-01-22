@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/prefTitle">
+
+        <EditTextPreference
+
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="User Height in cm"
+
+            android:title="User Height"
+            app:key="UserHeight"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

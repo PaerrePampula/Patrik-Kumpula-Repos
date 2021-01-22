@@ -1,0 +1,11 @@
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\obj\Debug\netcoreapp3.1\MoiProjekti.csprojAssemblyReference.cache
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\obj\Debug\netcoreapp3.1\MoiProjekti.AssemblyInfoInputs.cache
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\obj\Debug\netcoreapp3.1\MoiProjekti.AssemblyInfo.cs
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.exe
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.deps.json
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.runtimeconfig.json
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.runtimeconfig.dev.json
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.dll
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\bin\Debug\netcoreapp3.1\MoiProjekti.pdb
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\obj\Debug\netcoreapp3.1\MoiProjekti.dll
+C:\Users\it20\source\repos\MoiProjekti\MoiProjekti\obj\Debug\netcoreapp3.1\MoiProjekti.pdb

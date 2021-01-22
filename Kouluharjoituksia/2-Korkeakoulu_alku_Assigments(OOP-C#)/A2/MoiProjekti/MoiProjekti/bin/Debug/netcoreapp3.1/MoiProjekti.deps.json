@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MoiProjekti/1.0.0": {
+        "runtime": {
+          "MoiProjekti.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoiProjekti/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

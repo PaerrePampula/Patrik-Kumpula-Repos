@@ -1,0 +1,48 @@
+﻿<Window x:Class="NotePad2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotePad2"
+        mc:Ignorable="d"
+        Title="Notepad" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New" InputGestureText="Ctrl+N" Command="{Binding NewFileCommand}" />
+                    <MenuItem Header="_Open" InputGestureText="Ctrl+O" Command="{Binding OpenFileCommand}"/>
+                    <MenuItem Header="_Save"  InputGestureText="Ctrl+S" Command="{Binding SaveFileCommand}"/>
+                    <Separator/>
+                    <MenuItem Header="_Print" InputGestureText="Ctrl+P" Command="{Binding PrintCommand}" />
+                    <Separator />
+                    <MenuItem Header="_Exit" InputGestureText="Ctrl+Shift+Q" Command="{Binding ExitCommand}" />
+                </MenuItem>
+                <MenuItem Header="Edit">
+                    <MenuItem Header="_Copy" InputGestureText="Ctrl+C" Command="{Binding CopyCommand}"/>
+                    <MenuItem Header="_Paste" InputGestureText="Ctrl+V" Command="{Binding PasteCommand}"/>
+                </MenuItem>
+                <MenuItem Header="Format">
+                    <MenuItem Header="_Font" InputGestureText="Ctrl+Shift+F" Command="{Binding FormatCommand}" />
+                </MenuItem>
+            </Menu>
+            <TextBox AcceptsReturn="True" Margin="5px" Padding="5px" Name="TextFileBox" />
+        </DockPanel>
+
+    </Grid>
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding NewFileCommand}"
+              Gesture="Ctrl+N" />
+        <KeyBinding Command="{Binding OpenFileCommand}"
+                    Gesture="Ctrl+O"/>
+        <KeyBinding Command="{Binding SaveFileCommand}"
+                    Gesture="Ctrl+S"/>
+        <KeyBinding Command="{Binding ExitCommand}"
+                    Gesture="Ctrl+Shift+Q"/>
+        <KeyBinding Command="{Binding PrintCommand}" Gesture="Ctrl+P"
+            />
+        <KeyBinding Command="{Binding FormatCommand}" Gesture="Ctrl+Shift+F"/>
+    </Window.InputBindings>
+
+
+</Window>

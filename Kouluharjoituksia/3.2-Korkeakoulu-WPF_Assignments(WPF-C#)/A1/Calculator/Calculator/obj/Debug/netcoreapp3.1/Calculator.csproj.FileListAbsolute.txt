@@ -1,0 +1,17 @@
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+E:\HAMKSYYS2020\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\App.g.cs
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.cache
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.lref
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.g.resources
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+E:\HAMKSYYS2020\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb

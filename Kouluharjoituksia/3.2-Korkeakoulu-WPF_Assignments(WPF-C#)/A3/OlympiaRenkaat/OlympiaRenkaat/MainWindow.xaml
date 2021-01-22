@@ -1,0 +1,19 @@
+﻿<Window x:Class="OlympiaRenkaat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OlympiaRenkaat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas x:Name="MainCanvas">
+        <Button x:Name="RingDestroyButton" Content="Destroy rings" Canvas.Left="270" Canvas.Top="369" Width="260" Height="40" Click="RingDestroyButton_Click"/>
+        <local:OlympicRingCanvas x:Name="OlympicRingCanvas" Height="434" Width="800">
+            <Ellipse Height="100" Canvas.Left="245" Stroke="Black" Canvas.Top="105" Width="100"/>
+            <Ellipse Height="100" Canvas.Left="350" Stroke="Black" Canvas.Top="105" Width="100"/>
+            <Ellipse Height="100" Canvas.Left="455" Stroke="Black" Canvas.Top="105" Width="100"/>
+            <Ellipse Height="100" Canvas.Left="290" Stroke="Black" Canvas.Top="167" Width="100"/>
+            <Ellipse Height="100" Canvas.Left="400" Stroke="Black" Canvas.Top="167" Width="100"/>
+        </local:OlympicRingCanvas>
+    </Canvas>
+</Window>

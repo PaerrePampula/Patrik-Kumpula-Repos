@@ -1,0 +1,11 @@
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.exe
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.deps.json
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.runtimeconfig.json
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.runtimeconfig.dev.json
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.dll
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\bin\Debug\netcoreapp3.1\Yhteenlaskija.pdb
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\obj\Debug\netcoreapp3.1\Yhteenlaskija.csprojAssemblyReference.cache
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\obj\Debug\netcoreapp3.1\Yhteenlaskija.AssemblyInfoInputs.cache
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\obj\Debug\netcoreapp3.1\Yhteenlaskija.AssemblyInfo.cs
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\obj\Debug\netcoreapp3.1\Yhteenlaskija.dll
+C:\Users\it20\source\repos\Yhteenlaskija\Yhteenlaskija\obj\Debug\netcoreapp3.1\Yhteenlaskija.pdb

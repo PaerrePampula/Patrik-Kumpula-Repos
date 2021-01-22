@@ -1,0 +1,21 @@
+﻿<Window x:Class="BadPaint.DialogCanvasScale"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BadPaint"
+        mc:Ignorable="d"
+        xmlns:resx="clr-namespace:BadPaint.Properties"
+        Title="DialogCanvasScale" Height="150" Width="200" ResizeMode="NoResize">
+    <StackPanel Margin="10">
+        
+        <TextBlock Text="Resize ink canvas by pixels" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <WrapPanel HorizontalAlignment="Center" Margin="5">
+            <Label>X:</Label>
+            <TextBox x:Name="Xscale" PreviewTextInput="NumberValidationTextBox" Width="50" TextWrapping="Wrap" MaxLength="5"/>
+            <Label>Y:</Label>
+            <TextBox x:Name="Yscale" PreviewTextInput="NumberValidationTextBox" Width="50" TextWrapping="Wrap" MaxLength="5"/>
+        </WrapPanel>
+        <Button Content="OK" Click="OKButton_Click" Width="150" Margin="5" />
+    </StackPanel>
+</Window>

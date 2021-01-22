@@ -1,0 +1,11 @@
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.exe
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.deps.json
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.runtimeconfig.json
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.runtimeconfig.dev.json
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.dll
+C:\Users\it20\source\repos\Eka\Eka\bin\Debug\netcoreapp3.1\Eka.pdb
+C:\Users\it20\source\repos\Eka\Eka\obj\Debug\netcoreapp3.1\Eka.csprojAssemblyReference.cache
+C:\Users\it20\source\repos\Eka\Eka\obj\Debug\netcoreapp3.1\Eka.AssemblyInfoInputs.cache
+C:\Users\it20\source\repos\Eka\Eka\obj\Debug\netcoreapp3.1\Eka.AssemblyInfo.cs
+C:\Users\it20\source\repos\Eka\Eka\obj\Debug\netcoreapp3.1\Eka.dll
+C:\Users\it20\source\repos\Eka\Eka\obj\Debug\netcoreapp3.1\Eka.pdb
