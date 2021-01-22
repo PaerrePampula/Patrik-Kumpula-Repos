@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Anim.meta
+    - Assets/Anim/Explosion.meta
+    - Assets/Anim/Explosion/Explosion.anim
+    - Assets/Anim/Explosion/Explosion.anim.meta
+    - Assets/Prefab.meta
+    - Assets/Prefab/AmmoPickup.prefab
+    - Assets/Prefab/AmmoPickup.prefab.meta
+    - Assets/Prefab/Bullet.prefab
+    - Assets/Prefab/Bullet.prefab.meta
+    - Assets/Prefab/Explode.prefab
+    - Assets/Prefab/Explode.prefab.meta
+    - Assets/Prefab/Grenade.prefab
+    - Assets/Prefab/Grenade.prefab.meta
+    - Assets/Prefab/clipart2118856.png.meta
+    - Assets/Prefab/enemymans.prefab
+    - Assets/Prefab/enemymans.prefab.meta
+    - Assets/Prefab/no-u 1.prefab
+    - Assets/Prefab/no-u 1.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scripts.meta
+    - Assets/Scripts/Ability.meta
+    - Assets/Scripts/Ability/AbilityController.cs.meta
+    - Assets/Scripts/Ability/BaseAbility.cs.meta
+    - Assets/Scripts/Ability/IAbility.cs.meta
+    - Assets/Scripts/Ability/NoUTrigger.cs.meta
+    - Assets/Scripts/Ability/UnoReverseAbility.cs.meta
+    - Assets/Scripts/Character.meta
+    - Assets/Scripts/Character/BaseCharacter.cs.meta
+    - Assets/Scripts/Character/EnemyBehaviour.cs.meta
+    - Assets/Scripts/Character/EnemyShoot.cs.meta
+    - Assets/Scripts/Character/HPBar.cs.meta
+    - Assets/Scripts/Character/IDamageable.cs.meta
+    - Assets/Scripts/Character/PlayerController.cs.meta
+    - Assets/Scripts/Entity.meta
+    - Assets/Scripts/Entity/AmmoPickup.cs.meta
+    - Assets/Scripts/Entity/BasePickup.cs.meta
+    - Assets/Scripts/UI.meta
+    - Assets/Scripts/UI/AmmoUI.cs.meta
+    - Assets/Scripts/UI/BarHandler.cs.meta
+    - Assets/Scripts/UI/CanvasController.cs.meta
+    - Assets/Scripts/UI/CoolDownBar.cs.meta
+    - Assets/Scripts/Utility.meta
+    - Assets/Scripts/Utility/CameraController.cs.meta
+    - Assets/Scripts/Weapon.meta
+    - Assets/Scripts/Weapon/BaseWeapon.cs.meta
+    - Assets/Scripts/Weapon/BulletBehaviour.cs.meta
+    - Assets/Scripts/Weapon/ExplBehaviour.cs.meta
+    - Assets/Scripts/Weapon/GrenadeBehaviour.cs.meta
+    - Assets/Scripts/Weapon/GunScript.cs.meta
+    - Assets/Scripts/Weapon/HeldItem.cs.meta
+    - Assets/Scripts/Weapon/IBulletAble.cs.meta
+    - Assets/Scripts/Weapon/IWeaponable.cs.meta
+    - Assets/Scripts/Weapon/WeaponController.cs.meta
+    - Assets/Sounds.meta
+    - "Assets/Sounds/b\xE4m.mp3.meta"
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Texture.meta
+    - Assets/Texture/GenericBarYAxisComfortableness (2).prefab
+    - Assets/Texture/GenericBarYAxisComfortableness (2).prefab.meta
+    - Assets/Texture/Materials.meta
+    - Assets/Texture/Materials/pysy.mat
+    - Assets/Texture/Materials/pysy.mat.meta
+    - Assets/Texture/PngJoy_bullet-2d-png-transparent-png_1699175.png.meta
+    - Assets/Texture/ammodone.png.meta
+    - Assets/Texture/enemymans.png.meta
+    - Assets/Texture/hiclipart.com.png.meta
+    - Assets/Texture/no-u 1.png.meta
+    - Assets/Texture/pnghut_2d-computer-graphics-pixel-art-mushroom-clip_1wRshqm2VJ.png.meta
+    - Assets/Texture/pysy.jpg.meta
+    - Assets/Texture/toppng.com-renade-launcher-gta-v-grenade-launcher-691x209.png.meta
+    - Assets/Tile.meta
+    - Assets/Tile/grass_0.asset
+    - Assets/Tile/grass_0.asset.meta
+    - Assets/Tile/grass_1.asset
+    - Assets/Tile/grass_1.asset.meta
+    - Assets/Tile/grass_10.asset
+    - Assets/Tile/grass_10.asset.meta
+    - Assets/Tile/grass_11.asset
+    - Assets/Tile/grass_11.asset.meta
+    - Assets/Tile/grass_12.asset
+    - Assets/Tile/grass_12.asset.meta
+    - Assets/Tile/grass_13.asset
+    - Assets/Tile/grass_13.asset.meta
+    - Assets/Tile/grass_14.asset
+    - Assets/Tile/grass_14.asset.meta
+    - Assets/Tile/grass_15.asset
+    - Assets/Tile/grass_15.asset.meta
+    - Assets/Tile/grass_16.asset
+    - Assets/Tile/grass_16.asset.meta
+    - Assets/Tile/grass_17.asset
+    - Assets/Tile/grass_17.asset.meta
+    - Assets/Tile/grass_18.asset
+    - Assets/Tile/grass_18.asset.meta
+    - Assets/Tile/grass_19.asset
+    - Assets/Tile/grass_19.asset.meta
+    - Assets/Tile/grass_2.asset
+    - Assets/Tile/grass_2.asset.meta
+    - Assets/Tile/grass_20.asset
+    - Assets/Tile/grass_20.asset.meta
+    - Assets/Tile/grass_21.asset
+    - Assets/Tile/grass_21.asset.meta
+    - Assets/Tile/grass_22.asset
+    - Assets/Tile/grass_22.asset.meta
+    - Assets/Tile/grass_23.asset
+    - Assets/Tile/grass_23.asset.meta
+    - Assets/Tile/grass_24.asset
+    - Assets/Tile/grass_24.asset.meta
+    - Assets/Tile/grass_25.asset
+    - Assets/Tile/grass_25.asset.meta
+    - Assets/Tile/grass_26.asset
+    - Assets/Tile/grass_26.asset.meta
+    - Assets/Tile/grass_27.asset
+    - Assets/Tile/grass_27.asset.meta
+    - Assets/Tile/grass_28.asset
+    - Assets/Tile/grass_28.asset.meta
+    - Assets/Tile/grass_29.asset
+    - Assets/Tile/grass_29.asset.meta
+    - Assets/Tile/grass_3.asset
+    - Assets/Tile/grass_3.asset.meta
+    - Assets/Tile/grass_30.asset
+    - Assets/Tile/grass_30.asset.meta
+    - Assets/Tile/grass_31.asset
+    - Assets/Tile/grass_31.asset.meta
+    - Assets/Tile/grass_32.asset
+    - Assets/Tile/grass_32.asset.meta
+    - Assets/Tile/grass_33.asset
+    - Assets/Tile/grass_33.asset.meta
+    - Assets/Tile/grass_34.asset
+    - Assets/Tile/grass_34.asset.meta
+    - Assets/Tile/grass_35.asset
+    - Assets/Tile/grass_35.asset.meta
+    - Assets/Tile/grass_36.asset
+    - Assets/Tile/grass_36.asset.meta
+    - Assets/Tile/grass_37.asset
+    - Assets/Tile/grass_37.asset.meta
+    - Assets/Tile/grass_38.asset
+    - Assets/Tile/grass_38.asset.meta
+    - Assets/Tile/grass_39.asset
+    - Assets/Tile/grass_39.asset.meta
+    - Assets/Tile/grass_4.asset
+    - Assets/Tile/grass_4.asset.meta
+    - Assets/Tile/grass_40.asset
+    - Assets/Tile/grass_40.asset.meta
+    - Assets/Tile/grass_41.asset
+    - Assets/Tile/grass_41.asset.meta
+    - Assets/Tile/grass_42.asset
+    - Assets/Tile/grass_42.asset.meta
+    - Assets/Tile/grass_43.asset
+    - Assets/Tile/grass_43.asset.meta
+    - Assets/Tile/grass_44.asset
+    - Assets/Tile/grass_44.asset.meta
+    - Assets/Tile/grass_45.asset
+    - Assets/Tile/grass_45.asset.meta
+    - Assets/Tile/grass_46.asset
+    - Assets/Tile/grass_46.asset.meta
+    - Assets/Tile/grass_47.asset
+    - Assets/Tile/grass_47.asset.meta
+    - Assets/Tile/grass_48.asset
+    - Assets/Tile/grass_48.asset.meta
+    - Assets/Tile/grass_49.asset
+    - Assets/Tile/grass_49.asset.meta
+    - Assets/Tile/grass_5.asset
+    - Assets/Tile/grass_5.asset.meta
+    - Assets/Tile/grass_50.asset
+    - Assets/Tile/grass_50.asset.meta
+    - Assets/Tile/grass_6.asset
+    - Assets/Tile/grass_6.asset.meta
+    - Assets/Tile/grass_7.asset
+    - Assets/Tile/grass_7.asset.meta
+    - Assets/Tile/grass_8.asset
+    - Assets/Tile/grass_8.asset.meta
+    - Assets/Tile/grass_9.asset
+    - Assets/Tile/grass_9.asset.meta
+    - Assets/TilePalette.meta
+    - Assets/TilePalette/BackGrd.prefab
+    - Assets/TilePalette/BackGrd.prefab.meta
+    - Assets/grass.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
