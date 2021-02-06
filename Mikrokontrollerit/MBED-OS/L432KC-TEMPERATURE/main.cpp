@@ -20,7 +20,6 @@ AnalogOut ledIndicator(A4);
 #define Yellow 0xFFE0
 #define White 0xFFFF
 
-
 float previousTemp = 0;
 float previousSampling [10];
 float tempsTotal = 0.0;
@@ -47,7 +46,7 @@ float getTemp()
     float flooredAndRounded = floorf(var*100.0)/100.0;
     return flooredAndRounded;
 }
-//A LED will indicate if the current temperature has increased by 1/4 of a Celsius by checking the current temperature against the previous 10 samplings
+//A LED will indicate if the current temperature has increased by 1/2 of a Celsius by checking the current temperature against the previous 10 samplings
 void checkLamp()
 {
     previousSampling[counter] = getTemp();
@@ -66,7 +65,7 @@ void checkLamp()
         counter = 0;
     }
 
-    ledIndicator = (getTemp() > (currentSum/10)+0.25f) ? true:false;
+    ledIndicator = (getTemp() > (currentSum/10)+0.50f) ? true:false;
 
 
 }
